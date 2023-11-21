@@ -101,3 +101,33 @@ body {
   font-weight: 400;
   line-height: normal;
 }
+.pricing-title {
+  color: #000;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.67; /* 166.667% */
+}
+.pricing-subtitle {
+  color: #263238;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 48px; /* 160% */
+}
+.pricing-desc {
+  color: #8f95a5;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+}
+.pricing-money {
+  color: #263238;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: normal;
+}
+.pricing-period {
+  color: #546269;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+}
