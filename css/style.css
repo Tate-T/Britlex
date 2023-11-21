@@ -1,61 +1,103 @@
-
+body {
+  font-family: Poppins;
+}
 .header-logo span {
-    color: #000;
-
-    font-family: Poppins;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+  color: #000;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .header-logo {
-    color: #939393;
-    font-family: Poppins;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-
+  color: #939393;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .header-link {
-    color: #263238;
-    font-family: Poppins;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+  color: #263238;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: normal;
 }
 .header-button {
-    color: #000;
-font-family: Poppins;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+  color: #000;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
 }
 .hero-title {
-    color: #000;
-font-family: Poppins;
-font-size: 64px;
-font-style: normal;
-font-weight: 600;
-line-height: 80px; /* 125% */
+  color: #000;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 80px; /* 125% */
 }
 .hero-text {
-    color: #8F95A5;
-font-family: Poppins;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+  color: #8f95a5;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
 }
 .hero-button {
-    color: #FFF;
-font-family: Poppins;
-font-size: 36px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+  color: #fff;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: normal;
+}
+.skills-title {
+  color: #000;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 80px; /* 222.222% */
+}
+
+.skills-subtitle {
+  color: #263238;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 80px; /* 363.636% */
+}
+
+.skills-paragraph {
+  color: #8f95a5;
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.skills-but {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.about-title {
+  color: #000;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 80px; /* 222.222% */
+}
+
+.about-paragraph {
+  color: #8f95a5;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.about-subtitle {
+  color: #2a3246;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 80px; /* 266.667% */
+}
+
+.about-information {
+  color: #8f95a5;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
 }
