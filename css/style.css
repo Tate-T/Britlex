@@ -1,133 +1,164 @@
-body {
-  font-family: Poppins;
-}
-.header-logo span {
-  color: #000;
-  font-size: 36px;
-  font-weight: 400;
-  line-height: normal;
+:root {
+    --text-color: #8f95a5;
+    --logo-color: #939393;
+    --title-color: #000;
+    --link-color: #263238;
+    --link-subtitle: #2a3246;
+    --price-subtitle: #263238;
+    --price-period: #546269;
+    --btn-color: #fff;
 }
 
+body {
+    font-family: Poppins;
+    color: var(--title-color);
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.5;
+}
+
+/* header */
 .header-logo {
-  color: #939393;
-  font-size: 36px;
-  font-weight: 400;
-  line-height: normal;
+    color: var(--logo-color);
 }
 
 .header-link {
-  color: #263238;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: normal;
+    color: var(--link-color);
+    font-size: 20px;
+    font-weight: 500;
 }
+
 .header-button {
-  color: #000;
-  font-size: 24px;
-  font-weight: 400;
-  line-height: normal;
+    font-size: 24px;
 }
+/* hero */
 .hero-title {
-  color: #000;
-  font-size: 64px;
-  font-weight: 600;
-  line-height: 80px; /* 125% */
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 1.25;
+
 }
+
 .hero-text {
-  color: #8f95a5;
-  font-size: 24px;
-  font-weight: 400;
-  line-height: normal;
+    color: var(--text-color);
+    font-size: 24px;
 }
+
 .hero-button {
-  color: #fff;
-  font-size: 36px;
-  font-weight: 400;
-  line-height: normal;
+    color: var(--btn-color);
 }
+/* skills */
 .skills-title {
-  color: #000;
-  font-size: 36px;
-  font-weight: 600;
-  line-height: 80px; /* 222.222% */
+    font-weight: 600;
+    line-height: 1.67;
+
 }
 
 .skills-subtitle {
-  color: #263238;
-  font-size: 22px;
-  font-weight: 600;
-  line-height: 80px; /* 363.636% */
+    color: var(--link-color);
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 3.64;
+
 }
 
 .skills-paragraph {
-  color: #8f95a5;
+    color: var(--text-color);
 
-  font-size: 14px;
-  font-weight: 400;
-  line-height: normal;
+    font-size: 14px;
 }
 
 .skills-but {
-  color: #fff;
-  font-size: 18px;
-  font-weight: 500;
-  line-height: normal;
+    color: var(--btn-color);
+    font-size: 18px;
+    font-weight: 500;
 }
-
+/* about */
 .about-title {
-  color: #000;
-  font-size: 36px;
-  font-weight: 600;
-  line-height: 80px; /* 222.222% */
+    font-weight: 600;
+    line-height: 1.67;
+
 }
 
 .about-paragraph {
-  color: #8f95a5;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: normal;
+    color: var(--text-color);
+    font-size: 16px;
 }
 
 .about-subtitle {
-  color: #2a3246;
-  font-size: 30px;
-  font-weight: 600;
-  line-height: 80px; /* 266.667% */
+    color: var(--link-subtitle);
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 2.67;
+
 }
 
 .about-information {
-  color: #8f95a5;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: normal;
+    color: var(--text-color);
+    font-size: 20px;
 }
+/* price */
 .pricing-title {
-  color: #000;
-  font-size: 48px;
-  font-weight: 600;
-  line-height: 1.67; /* 166.667% */
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.67;
+
 }
+
 .pricing-subtitle {
-  color: #263238;
-  font-size: 30px;
-  font-weight: 600;
-  line-height: 48px; /* 160% */
+    color: var(--price-subtitle);
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.6;
+
 }
+
 .pricing-desc {
-  color: #8f95a5;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: normal;
+    color: var(--text-color);
+    font-size: 20px;
 }
+
 .pricing-money {
-  color: #263238;
-  font-size: 30px;
-  font-weight: 400;
-  line-height: normal;
+    color: var(--price-subtitle);
+    font-size: 30px;
+    line-height: 1.29;
 }
+
 .pricing-period {
-  color: #546269;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: normal;
+    color: var(--price-period);
+    font-size: 18px;
+}
+
+/* contact */
+.contact-title {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.67;
+}
+
+.contact-paragraph {
+    color: var(--text-color);
+    font-size: 20px;
+}
+
+.contact-input::placeholder {
+    color: var(--text-color);
+    font-size: 16px;
+}
+
+
+.contact-btn {
+    color: var(--btn-color);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* footer */
+.footer-link span {
+    color: var(--logo-color);
+}
+
+.footer-paragraph {
+    color: var(--text-color);
+    font-size: 24px;
 }
