@@ -21,7 +21,9 @@ body {
 .header-logo {
     color: var(--logo-color);
 }
-
+.header-logo span {
+    color: var(--title-color);
+}
 .header-link {
     color: var(--link-color);
     font-size: 20px;
@@ -156,6 +158,10 @@ body {
 /* footer */
 .footer-link span {
     color: var(--logo-color);
+}
+
+.footer-link {
+    color: var(--title-color);
 }
 
 .footer-paragraph {
