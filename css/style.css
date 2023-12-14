@@ -16,6 +16,14 @@ body {
     font-size: 36px;
     line-height: 1.5;
 }
+.conteiner{
+    width: 1368px;
+    padding-left:15px;
+    padding-right:15px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: solid red;
+}
 
 /* header */
 .header-logo {
