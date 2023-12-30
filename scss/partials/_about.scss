@@ -1,0 +1,26 @@
+/* about */
+.about-title {
+    font-weight: 600;
+    line-height: 1.67;
+
+}
+.about-box{
+    @include flex-position(194px);
+}
+.about-paragraph {
+    color: $text-color;
+    font-size: 16px;
+}
+
+.about-subtitle {
+    color: $link-subtitle;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 2.67;
+
+}
+
+.about-information {
+    color: $text-color;
+    font-size: 20px;
+}

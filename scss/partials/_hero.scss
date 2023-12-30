@@ -1,0 +1,18 @@
+/* hero */
+.hero-title {
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 1.25;
+
+}
+.hero-container{
+    @include flex-position(57px);
+}
+.hero-text {
+    color: $text-color;
+    font-size: 24px;
+}
+
+.hero-button {
+    color: $btn-color;
+}

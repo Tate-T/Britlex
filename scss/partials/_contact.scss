@@ -1,0 +1,26 @@
+/* contact */
+.contact-title {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.67;
+}
+
+.contact-paragraph {
+    color: $text-color;
+    font-size: 20px;
+}
+
+.contact-input::placeholder {
+    color: $text-color;
+    font-size: 16px;
+}
+
+
+.contact-btn {
+    color: $btn-color;
+    font-size: 20px;
+    font-weight: 500;
+}
+.contact-container{
+    @include flex-position(111px);
+}

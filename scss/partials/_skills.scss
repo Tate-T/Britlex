@@ -1,0 +1,40 @@
+
+/* skills */
+.skills-title {
+    font-weight: 600;
+    line-height: 1.67;
+
+}
+
+.skills-subtitle {
+    color: $link-color;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 3.64;
+
+}
+
+.skills-paragraph {
+    color: $text-color;
+
+    font-size: 14px;
+}
+
+.skills-but {
+    color: $btn-color;
+    font-size: 18px;
+    font-weight: 500;
+}
+.skills-container{
+    @include flex-position(18px);
+}
+.skills-speaking{
+    max-width: 434px;
+}
+.skills-list{
+    @include flex-position(18px);
+    flex-wrap: wrap;
+}
+.skills-item:not(:last-child){
+    max-width: 434px;
+}
