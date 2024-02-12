@@ -32,12 +32,22 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  outline: solid red;
 }
 
 /* header */
+.header {
+  padding-top: 55px;
+  padding-bottom: 101px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
 .header-logo {
   color: #939393;
+  margin-right: 253px;
 }
 
 .header-logo span {
@@ -57,9 +67,25 @@ body {
 
 .header-button {
   font-size: 24px;
+  margin-left: auto;
+  border: 2px solid #263238;
+  border-radius: 5px;
+  width: 220px;
+  height: 70px;
+  background: transparent;
 }
 
 /* hero */
+.hero {
+  padding-bottom: 163px;
+}
+
+.hero-title-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 45px;
+}
+
 .hero-title {
   font-size: 64px;
   font-weight: 600;
@@ -78,12 +104,25 @@ body {
 
 .hero-button {
   color: #fff;
+  border-radius: 15px;
+  width: 438px;
+  height: 118px;
+  background: #263238;
+  font-weight: 400;
+  font-size: 36px;
+  margin-top: 71px;
 }
 
 /* skills */
 .skills-title {
   font-weight: 600;
   line-height: 1.67;
+  text-align: center;
+}
+
+.skills-article {
+  background: #f5f5f5;
+  border-radius: 10px;
 }
 
 .skills-subtitle {
